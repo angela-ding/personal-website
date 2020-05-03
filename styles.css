@@ -1,0 +1,151 @@
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5.625rem;
+  color: #ffaaa5;
+  /*margin: 0 auto 0 auto; this centers it left and right (auto sets things that have a width set)*/
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  /*will center anything inside that doesn't have a width set*/
+  font-family: 'Merriweather', serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #ffaaa5;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #698474;
+  font-weight: bolder;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 5px;
+  height: 0;
+  width: 3%;
+  margin: 50px auto 50px auto;
+}
+
+a {
+  color: #698474;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fcf8f3;
+}
+
+.profile {
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #fcf8f3;
+  position: relative;
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+
+.middle-container {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.pasta-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-container {
+  padding: 50px 0 20px;
+  background-color: #ffd3b6;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.mountain {
+  bottom: 0;
+  margin-bottom: 0;
+}
+
+.footer-link {
+}
+
+.trainee {
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me {
+  line-height:2;
+}
+
+.copyright {
+  color: #fcf8f3;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.contact-message {
+  width: 50%;
+  margin: 20px auto 20px auto;
+}
+
+.myButton {
+	box-shadow: 0px 10px 14px -7px #000000;
+	background:linear-gradient(to bottom, #ffaaa5 5%, #fcdfdd 100%);
+	background-color:#ffaaa5;
+	border-radius: 8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #fcdfdd 5%, #ffaaa5 100%);
+	background-color:#fcdfdd;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
