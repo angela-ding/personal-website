@@ -1,8 +1,8 @@
 h1 {
   margin: 50px auto 0 auto;
-  font-family: 'Dancing Script', cursive;
-  font-size: 5.625rem;
-  color: #ffaaa5;
+  font-family: 'Sacramento', cursive;
+  font-size: 8.0rem;
+  color: #204051;
   /*margin: 0 auto 0 auto; this centers it left and right (auto sets things that have a width set)*/
 }
 
@@ -10,18 +10,18 @@ body {
   margin: 0;
   text-align: center;
   /*will center anything inside that doesn't have a width set*/
-  font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', sans-serif;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-  color: #ffaaa5;
+  color: #204051;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  color: #698474;
+  color: #3b6978;
   font-weight: bolder;
 }
 
@@ -35,7 +35,7 @@ hr {
 }
 
 a {
-  color: #698474;
+  color: #3b6978;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
@@ -52,13 +52,13 @@ a:hover {
 }
 
 .top-container {
-  background-color: #fcf8f3;
+  background-color: #a4c5c6;
   position: relative;
   padding-top: 250px;
   padding-bottom: 250px;
 }
 
-.middle-container {
+.second-container {
   margin-top: 30px;
   margin-bottom: 50px;
 }
@@ -69,15 +69,15 @@ a:hover {
   margin-right: 30px;
 }
 
-.pasta-img {
+.coding-img {
   width: 25%;
   float: right;
   margin-left: 30px;
 }
 
-.bottom-container {
+.third-container {
   padding: 50px 0 20px;
-  background-color: #ffd3b6;
+  background-color: #84a9ac;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -87,10 +87,11 @@ a:hover {
   bottom: 300px;
 }
 
-.top-cloud {
+.trees-1 {
+  width: 300px;
   position: absolute;
-  right: 300px;
-  top: 50px;
+  left: 50px;
+  bottom: 0;
 }
 
 .mountain {
@@ -98,8 +99,7 @@ a:hover {
   margin-bottom: 0;
 }
 
-.footer-link {
-}
+.footer-link {}
 
 .trainee {
   font-weight: normal;
@@ -113,7 +113,7 @@ a:hover {
 }
 
 .contact-me {
-  line-height:2;
+  line-height: 2;
 }
 
 .copyright {
@@ -128,24 +128,173 @@ a:hover {
 }
 
 .myButton {
-	box-shadow: 0px 10px 14px -7px #000000;
-	background:linear-gradient(to bottom, #ffaaa5 5%, #fcdfdd 100%);
-	background-color:#ffaaa5;
-	border-radius: 8px;
+  background: linear-gradient(to bottom, #204051 5%, #84a9ac 100%);
+  background-color: #204051;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-shadow: 0px 0px 0px #ffffff;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #84a9ac 5%, #204051 100%);
+  background-color: #84a9ac;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.projects-tab {
+  color: #204051;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-decoration: none;
+}
+
+a.projects-tab:hover {
+  color: white;
+}
+
+.home-tab {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  top: 10px;
+  right: 100px;
+  text-decoration: none;
+}
+
+a.home-tab:hover {
+  color: black;
+}
+
+/****************************************PROJECTS-TAB****************************************/
+.projects-top-container {
+  background-color: #a4c5c6;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.p-projects-tab {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-decoration: none;
+}
+
+a.p-projects-tab:hover {
+  color: black;
+}
+
+.p-home-tab {
+  color: #204051;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  top: 10px;
+  right: 100px;
+  text-decoration: none;
+}
+
+a.p-home-tab:hover {
+  color: white;
+}
+
+.pencil-img {
+  width: 10%;
+}
+
+.linkedin-link {
+  color: #3b6978;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-decoration: underline;
+}
+
+a.linkedin-link:hover {
+  color: #204051;
+}
+
+a.github-link:hover {
+  color: #204051;
+}
+
+.github-link {
+  color: #3b6978;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-decoration: underline;
+}
+
+.introduction-projects {
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+}
+
+.projects-third-container {
+  padding: 50px 0 20px;
+  background-color: #3b6978;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nophish1 {
+  width: 40%
+}
+
+.project-header {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.0rem;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.project-medium {
+  width: 50%;
+  margin: auto;
+  color: white;
+}
+
+.project-des {
+  color: white;
+  width: 50%;
+  line-height: 2;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.nophish-button {
+	background:linear-gradient(to bottom, #84a9ac 5%, #84a9ac 100%);
+	background-color:#84a9ac;
+	border-radius:3px;
+	border:1px solid #84a9ac;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family: 'Montserrat', sans-serif;
-	font-size:15px;
-	padding:10px 20px;
+	font-size:13px;
+	padding:10px 24px;
 	text-decoration:none;
-	text-shadow:0px 0px 0px #ffffff;
 }
-.myButton:hover {
-	background:linear-gradient(to bottom, #fcdfdd 5%, #ffaaa5 100%);
-	background-color:#fcdfdd;
+.nophish-button:hover {
+	background:linear-gradient(to bottom, #204051 5%, #204051 100%);
+	background-color:#204051;
+  border-radius:3px;
+	border:1px solid #204051;
 }
-.myButton:active {
+.nophish-button:active {
 	position:relative;
 	top:1px;
 }
